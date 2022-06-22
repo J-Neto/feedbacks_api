@@ -18,7 +18,8 @@ I'm using "yarn" and the database is SQLITE. But, you can change it and use one 
 
 0. BEFORE ALL:
    0.1. Install all dependencies
-
+   0.2. Initialize project with "yarn init -y"
+   0.3. Initialize project with "yarn tsc --init"
 1. Go to "tsconfig.json" and search for:
    1.1. "rootDir": "./", then add "src". The command will be like this: "rootDir": "./src",
    1.2. "outDir": "./", the add "dist". The command will be like this: "outDir": "./dist",
